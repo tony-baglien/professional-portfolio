@@ -225,6 +225,21 @@ nav a {
   display: none;
 }
 
+#pending-container {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+#pending-header {
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  color: var(--main-white);
+}
+#pending-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
 @media (max-width: 1180px) and (min-width: 960px) {
   .title-container {
     flex-direction: row;
