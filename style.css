@@ -283,6 +283,10 @@ nav a {
     border-bottom: 1px solid black;
   }
 
+  .title-container ul {
+    display: none;
+  }
+
   .title-container,
   #red-poly {
     grid-row-start: 1;
